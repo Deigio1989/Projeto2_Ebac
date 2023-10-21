@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div id="formAgenda">
+            <header>
+                <h1>Agenda </h1>
+                <img src="./images/fone.png" alt="">
+            </header>
+            <form >
+                <input id="nome" type="text" required placeholder="Nome Completo">
+                <input id="tel" type="tel" required placeholder="Telefone">
+                <button type="submit">Adicionar</button>
+            </form>
+        </div>
+        <div >
+            <table id="agenda" >
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    <script src="./main.js"></script>
+    
+</body>
+</html>
